@@ -52,3 +52,14 @@ For Windows:
 ```bash
 python main.py
 ```
+### Basic Workflow
+
+*Fill in the "Name", "Surname", "City", and "Number" fields.*
+
+*Click add to stage the data in the program's memory.*
+
+*Click save to write the staged data to save.txt.*
+
+*To find a record, enter its unique 6-digit code in the "Data Search" field and click search.*
+
+*Click clear to empty all input fields*
