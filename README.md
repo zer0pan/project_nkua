@@ -32,7 +32,7 @@ sudo apt-get install qtwayland5
 pip install PyQt5
 ```
 
-### For Windows or Mac 
+### 2. For Windows or Mac 
 
 ```bash
 pip install PyQt5
@@ -52,7 +52,3 @@ For Windows:
 ```bash
 python main.py
 ```
-
-
-## Usage 
-
