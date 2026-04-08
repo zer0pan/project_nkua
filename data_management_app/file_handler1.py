@@ -3,11 +3,10 @@ new_data_list = [] # list with dictionaries
 
 def retrieve_code_set():
     try:
-        code_setfile = open("code_set.txt",'r')
-        lines = code_setfile.readlines()
-        for line in lines:
-            code_set.add(int(line))
-        code_setfile.close()
+        with open("code_set.txt", 'r') as code_setfile:
+            lines = code_setfile.readlines()
+            for line in lines:
+                code_set.add(int(line.strip()))
     except:
         print("Code Set not retrieved")
 

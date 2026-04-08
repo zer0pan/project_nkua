@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
         
     def __init__(self):
         super().__init__()
-        self.setGeometry(0,0,500,350)
+        self.setGeometry(50,50,500,350)
         
         self.data_label = QLabel(self)
         self.data_label.setText("Data Input")
@@ -101,9 +101,9 @@ class MainWindow(QMainWindow):
         self.number_input.setText("")
         
     def save_data(self):
-        empty_list()
         save_new_data()
         save_code_set()
+        empty_list()
         
     def clear_data(self):
         self.name_input.setText("")
